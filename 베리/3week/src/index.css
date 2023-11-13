@@ -1,26 +1,23 @@
-body {
-  background-color: #22254b;
-}
-
-.app-container {
+.App {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1600px;  
+  width: 1600px;
   margin: 0 auto;
 }
 
 .movie-container {
   position: relative;
-  width: 170px;
+  width: 190px;
   margin: 10px;
   background-color: #373b69;
   color: white;
   border-radius: 5px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
-.movie-container img {
+.movie-poster{
   max-width: 100%;
 }
 
@@ -117,4 +114,25 @@ body {
 .logintext {
   color: white;
   margin-left: 20px;
+}
+
+.movie-detail {
+  padding-top: 20px;
+}
+.poster-detail {
+  width: 290px;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+.name-detail {
+  font-size: 30px;
+}
+.not-found{
+  margin-left: 30px;
+}
+.toHome {
+  color: red;
+  cursor: pointer;
+  width: 10em;
 }
