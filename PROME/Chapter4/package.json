@@ -1,0 +1,54 @@
+{
+  "name": "umc-workbook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^3.0.1",
+    "styled-components": "^6.0.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://promlee.github.io/react_NETFLIXclonecoding/",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1"
+  },
+  "description": "실습 : 3주차에 만들었던 영화 페이지의 CSS를 Styled-Component로 변경",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

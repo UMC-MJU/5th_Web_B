@@ -1,0 +1,92 @@
+.poster {
+  width: 250px;
+  height: 400px;
+}
+.namebox {
+  padding-left: 20px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "굴림";
+  color: white;
+}
+.date {
+  width: 50px;
+  color: white;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+.wrapper {
+  width: 250px;
+  height: 470px;
+  background-color: #373b69;
+  border-radius: 10px;
+  position: relative;
+}
+
+.info {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overview {
+  color: white;
+  position: absolute;
+  background-color: #000000a8;
+  height: 470px;
+  top: 0;
+  left: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+.hovername {
+  margin: 20px;
+}
+.hoveroverview {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mainHeader {
+  width: 100%;
+  background-color: #032541;
+  display: flex;
+  text-align: center;
+}
+.logo {
+  width: 154px;
+  height: 20px;
+  margin-top: 16px;
+  margin-left: 80px;
+  margin-right: 10px;
+}
+.links {
+  list-style: none;
+  padding: 0;
+}
+.links li {
+  color: white !important;
+  float: left;
+  padding-left: 25px;
+}
+.Adbutton {
+  margin-left: 5px;
+}
+.loginbutton {
+  margin-top: 12px;
+  margin-left: 40px;
+  width: 80px;
+  height: 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  border-color: none;
+}
+.logintext {
+  color: white;
+  margin-left: 20px;
+}

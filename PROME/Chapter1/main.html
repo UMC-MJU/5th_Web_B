@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="formtitle">로그인</h1>
+      <hr width="60%" style="margin-bottom: 30px" />
+      <div id="form">
+        <span id="textinform">아이디</span>
+        <input class="inputbox" type="text" name="ID" />
+        <hr width="100%" style="margin-bottom: 20px" />
+      </div>
+      <div id="form">
+        <span id="textinform">비밀번호</span>
+        <input class="inputbox" type="text" name="PW" />
+        <hr width="100%" style="margin-bottom: 30px" />
+      </div>
+      <input
+        id="loginbutton"
+        type="button"
+        value="로그인"
+        onclick="location.href = '#' "
+      />
+      <div id="external">
+        <a href="#">회원가입</a>
+        <span>|</span>
+        <a href="#">아이디/비밀번호 찾기</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url('UMC_뭔가_간지나는_배경1.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  background-color: rgba(242, 241, 241, 0.5);
+  border-radius: 15px;
+}
+
+.wrapper h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.input {
+  width: 235.05px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+.input::placeholder {
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+.search {
+  width: 100%;
+  height: 50px;
+  color: white;
+}
