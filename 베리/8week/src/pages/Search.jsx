@@ -29,7 +29,7 @@ function Search() {
   const search = async (e) => {         // search 라는 이벤트 핸들러 함수 선언
     if (e.key === "Enter") {            // 엔터 키가 눌렸을 때 호출
       await searchWeather();            // searchWeather 함수 호출 -> 완료할때까지 대기
-    }
+    } 
   };
 
   return (
